@@ -1,44 +1,48 @@
-
 @media (min-width: 480px) {
-    aside, .secondary-new{
+    aside, .secondary-new {
         display: inline-flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
 
-    aside .publicidad, .secondary-new .news{
+    aside .publicidad, .secondary-new .news {
         flex: 1;
     }
 
-    aside .publicidad:first-of-type, .secondary-new .news:first-of-type{
+    aside .publicidad:first-of-type, .secondary-new .news:first-of-type {
         margin-right: 5px;
     }
-    .secondary-new .news:last-of-type{
+
+    .secondary-new .news {
+        max-width: 300px;
+    } 
+
+    .secondary-new .news:last-of-type {
         margin-left: 5px;
     }
 }
 
 @media (min-width: 768px) {
-    section{
+    section {
         display: inline-block;
         flex: 2;
     }
     
-    aside{
+    aside {
         display: block;
         flex: 1;
     }
     
-    aside .publicidad:first-of-type{
+    aside .publicidad:first-of-type {
         margin-right: 0;
     }
 }
 
-main{
+main {
     background-color: #EEEEEE;
 }
 
-main .container{
+main .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -46,22 +50,22 @@ main .container{
     margin: auto;
     padding: 10px 0;
 }
-section{
+section {
     padding-right: 10px;
     padding-left: 10px;
 }
 
-aside{
+aside {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
 }
 
-main h2{
+main h2 {
     padding: 5px;
 }
 
-main h2 a{
+main h2 a {
     font-family: "Roboto", "Arial", "sans-serif";
     font-weight: 400;
     font-size: 1.75rem;
@@ -70,11 +74,11 @@ main h2 a{
     color: #000000;
 }
 
-main h3{
+main h3 {
     padding: 5px;
 }
 
-main h3 a{
+main h3 a {
     font-family: "Roboto", "Arial", "sans-serif";
     font-weight: 400;
     font-size: 1.25rem;
@@ -83,11 +87,11 @@ main h3 a{
     color: #000000;
 }
 
-main h4{
+main h4 {
     padding: 5px;
 }
 
-main h4 a{
+main h4 a {
     font-family: "Roboto", "Arial", "sans-serif";
     font-weight: 400;
     font-size: 1rem;
@@ -96,54 +100,50 @@ main h4 a{
     color: #000000;
 }
 
-main h2 a:hover, main h3 a:hover , main h4 a:hover{
+main h2 a:hover, main h3 a:hover , main h4 a:hover {
     color: #E65100;
     text-decoration: none;
 }
 
-main p{
+main p {
+    padding: 5px;
     font-family: "Roboto", "Arial", "sans-serif";
     font-weight: 400;
     font-size: 0.90rem;
     line-height: 1rem;
-    padding: 5px;
 }
 
-.main-news{
+.main-news {
     width: 100%;
 }
 
-.news{
+.news {
+    margin: 10px 0;
     background-color: #FFFFFF;
     box-shadow: 2px 2px #E0E0E0;
-    margin: 10px 0;
 }
 
-.main-news img{
+.main-news img {
     max-width: 100%;
 }
 
-.secondary-new{
+.secondary-new {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 
-.secondary-new img{
+.secondary-new img {
     width: 100%;
     max-height: 150px;
 }
 
-.secondary-new .news {
-    max-width: 300px;
-} 
-
-.secondary-new .news div:first-of-type{
+.secondary-new .news div:first-of-type {
     width: 100%;
 }
 
-aside .publicidad img{
+aside .publicidad img {
     width: 100%;
     height: 100%;
 }
