@@ -1,0 +1,151 @@
+
+@media (min-width: 480px) {
+    aside, .secondary-new{
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    aside .publicidad, .secondary-new .news{
+        flex: 1;
+    }
+
+    aside .publicidad:first-of-type, .secondary-new .news:first-of-type{
+        margin-right: 5px;
+    }
+    .secondary-new .news:last-of-type{
+        margin-left: 5px;
+    }
+}
+
+@media (min-width: 768px) {
+    section{
+        display: inline-block;
+        flex: 2;
+    }
+    
+    aside{
+        display: block;
+        flex: 1;
+    }
+    
+    aside .publicidad:first-of-type{
+        margin-right: 0;
+    }
+}
+
+main{
+    background-color: #EEEEEE;
+}
+
+main .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px 0;
+}
+section{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+aside{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+main h2{
+    padding: 5px;
+}
+
+main h2 a{
+    font-family: "Roboto", "Arial", "sans-serif";
+    font-weight: 400;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    text-decoration: none;
+    color: #000000;
+}
+
+main h3{
+    padding: 5px;
+}
+
+main h3 a{
+    font-family: "Roboto", "Arial", "sans-serif";
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    text-decoration: none;
+    color: #000000;
+}
+
+main h4{
+    padding: 5px;
+}
+
+main h4 a{
+    font-family: "Roboto", "Arial", "sans-serif";
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1rem;
+    text-decoration: none;
+    color: #000000;
+}
+
+main h2 a:hover, main h3 a:hover , main h4 a:hover{
+    color: #E65100;
+    text-decoration: none;
+}
+
+main p{
+    font-family: "Roboto", "Arial", "sans-serif";
+    font-weight: 400;
+    font-size: 0.90rem;
+    line-height: 1rem;
+    padding: 5px;
+}
+
+.main-news{
+    width: 100%;
+}
+
+.news{
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px #E0E0E0;
+    margin: 10px 0;
+}
+
+.main-news img{
+    max-width: 100%;
+}
+
+.secondary-new{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.secondary-new img{
+    width: 100%;
+    max-height: 150px;
+}
+
+.secondary-new .news {
+    max-width: 300px;
+} 
+
+.secondary-new .news div:first-of-type{
+    width: 100%;
+}
+
+aside .publicidad img{
+    width: 100%;
+    height: 100%;
+}
+
+

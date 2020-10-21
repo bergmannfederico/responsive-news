@@ -1,0 +1,55 @@
+footer{
+    background-color: #424242;
+}
+
+footer .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px 0;
+    color: #ffffff;
+    font-family: "Roboto", "Arial", "sans-serif";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1;
+    line-height: 1.120rem;
+}
+
+footer .container div{
+    padding: 10px 0;
+}
+
+footer .container div p{
+    padding: 5px 0;
+}
+
+footer .container div p a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer .container div p a:hover{
+    text-decoration: underline;
+}
+
+footer .social-links{
+    display: flex;
+    align-self: center;
+    flex-wrap: nowrap;
+}
+
+footer .social-links a img{
+    width: 30px;
+    height: 30px;
+    fill: #ffffff;
+    padding: 0 5px;
+}
+
+@media (min-width: 768px) {
+    footer .container{
+        font-size: 1.125rem;
+        line-height: 1.250rem;
+    }
+}

@@ -11,16 +11,3 @@
     font-weight: 700;
     src: url('../fonts/Roboto-Bold.ttf') format('ttf');
 }
-
-@font-face {
-    font-family: "RobotoSlab";
-    font-style: normal;
-    font-weight: 400;
-    src: url(../fonts/RobotoSlab-Regular.ttf) format("ttf");
-}
-@font-face {
-    font-family: "RobotoSlab";
-    font-style: normal;
-    font-weight: 700;
-    src: url(../fonts/RobotoSlab-Bold.ttf) format("ttf");
-}
