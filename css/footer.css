@@ -13,7 +13,7 @@ footer .container{
     font-family: "Roboto", "Arial", "sans-serif";
     font-weight: 400;
     font-style: normal;
-    font-size: 1;
+    font-size: 0.75rem;
     line-height: 1.120rem;
 }
 
@@ -48,7 +48,7 @@ footer .social-links a img{
 
 @media (min-width: 768px) {
     footer .container{
-        font-size: 1.125rem;
+        font-size: 1rem;
         line-height: 1.250rem;
     }
 }

@@ -7,15 +7,17 @@
         <link rel="stylesheet" href="css/reset.css"></link>
         <link rel="stylesheet" href="css/fonts.css"></link>
         <link rel="stylesheet" href="css/main.css"></link>
+        <link rel="stylesheet" href="css/subscription.css"></link>
         <link rel="stylesheet" href="css/header.css"></link>
         <link rel="stylesheet" href="css/footer.css"></link>
+        <script src="js/subsctiption.js"></script>
     </head>
     <body>
         <header>
             <div class="container">
                 <span class="burger-menu">
                     <a href="#">
-                        <img src="imgs/burger.png" alt="menu">
+                        <img src="imgs/burger.png" alt="">
                     </a>
                 </span>
                 <h1 class="head-title">Responsive News</h1>
@@ -49,8 +51,8 @@
                             </a>
                         </li>
                         <li>
-                            <a href="subscription.html">
-                                Subscribe Now
+                            <a href="#">
+                                Sports
                             </a>
                         </li>
                     </ul>
@@ -60,84 +62,62 @@
         <main>
             <div class="container">
                 <section>
-                    <div class="main-news news">
-                        <a href="#">
-                            <img src="imgs/tapia.jpg" alt="Tapia confirms the return of futbol">
-                        </a>
-                        <div>
-                            <h2>
-                                <a href="#">
-                                    AFA confirms top-flight football in Argentina will return on October 30
-                                </a>
-                            </h2>
-                            <p>
-                                AFA chief Claudio Tapia confirms that top division teams will restart matches on 
-                                October 30, after seven months without Argentine league football.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="secondary-new">
-                        <div class="news">
-                            <a href="#">
-                                <img src="imgs/fireInDelta.jpg" alt="Fire in Parana Delta">
-                            </a>
-                            <h3>
-                                <a href="#">
-                                    'Everything is burning': Argentina's delta fires rage out of control
-                                </a>
-                            </h3>
-                        </div>
-                        <div class="news">
-                            <div>
-                                <a href="#">
-                                    <img src="imgs/armenia.jpg" alt="War in Armenia">
-                                </a>
+                    <h2 id="titleHello">Hello, </h2>
+                    <form action="#" id="subs-form">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input id="name" type="text" name="name"  placeholder="Full Name">
+                                <span class="disp-none errors">Full name is not valid</span>
                             </div>
-                            <div>
-                                <h3>
-                                    <a href="#">
-                                        Armenia and Azerbaijan on Monday accused each other of attacks over the separatist 
-                                        territory
-                                    </a>
-                                </h3>
+                            <div class="input-group">
+                                <input id="mail" type="text" name="mail" placeholder="Email">
+                                <span class="disp-none errors">Mail is not valid</span>
                             </div>
                         </div>
-                    </div>
-                    <div class="secondary-new">
-                        <div class="news">
-                            <h4>
-                                <a href="#">
-                                    Switzerland: Parts of Germany, Italy and Austria added to 
-                                    coronavirus quarantine list
-                                </a>
-                            </h4>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input id="password" type="password" name="password" placeholder="Password">
+                                <span class="disp-none errors">Password is not valid</span>
+                            </div>
+                            <div class="input-group">
+                                <input id="repeat" type="password" name="repeat" placeholder="Repeat Password">
+                            </div>
                         </div>
-                        <div class="news">
-                            <h4>
-                                <a href="#">
-                                    Museums, gardens and zoos are reopening across the region.
-                                    Here’s what you can visit now.
-                                </a>
-                            </h4>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input id="age" type="number" name="age" placeholder="Age">
+                                <span class="disp-none errors">Age is not valid</span>
+                            </div>
+                            <div class="input-group">
+                                <input id="tel" type="number" name="tel" placeholder="Telphone number">
+                                <span class="disp-none errors">Telphone is not valid</span>
+                            </div>
                         </div>
-                        <div class="news">
-                            <h4>
-                                <a href="#">
-                                    What does Vogue do in a pandemic? It shows medical workers as heroic 
-                                    — but also human
-                                </a>
-                            </h4>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input id="address" type="text" name="address" placeholder="Address">
+                                <span class="disp-none errors">Address is not valid</span>
+                            </div>
+                            <div class="input-group">
+                                <input id="city" type="text" name="city" placeholder="City">
+                                <span class="disp-none errors">City is not valid</span>
+                            </div>
                         </div>
-                    </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input id="zip-code" type="text" name="zip-code" placeholder="Zip Code">
+                                <span class="disp-none errors">Zip Code is not valid</span>
+                            </div>
+                            <div class="input-group">
+                                <input id="dni" type="number" name="dni" placeholder="DNI">
+                                <span class="disp-none errors">DNI is not valid</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <button>Subscribe</button>
+                        </div>
+                    </form>
                 </section>
-                <aside>
-                    <div class="publicidad">
-                        <img src="imgs/pub1.jpg" alt="Publicidad1">
-                    </div>
-                    <div class="publicidad">
-                        <img src="imgs/pub2.jpg" alt="Publicidad2">
-                    </div>
-                </aside>
             </div>
         </main>
         <footer>

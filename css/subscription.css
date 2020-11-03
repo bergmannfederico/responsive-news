@@ -1,0 +1,98 @@
+body{
+    background-color: #EEEEEE;
+}
+
+input{
+    min-width: 400px;
+    padding: .375rem .75rem;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    color: #495057;
+    font-family: "Roboto", "Arial", "sans-serif";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+button{
+    width: 30%;
+    margin: .25rem 0;
+    background-color: #424242;
+    border-radius: .25rem;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid  #424242;
+    font-family: "Roboto", "Arial", "sans-serif";
+    font-weight: 400;
+    font-size: 1rem;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #EF6C00;
+    color: #424242;
+}
+
+#titleHello{
+    margin: 10px 0;
+    font-family: "Roboto", "Arial", "sans-serif";
+    font-weight: 400;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+}
+
+.form-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+
+.errors{
+    margin-top: 5px;
+    padding-left: 10px;
+    font-family: "Roboto", "Arial", "sans-serif";
+    font-weight: 400;
+    font-size: 0.60rem;
+    line-height: 0.9rem;
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    border-radius: 5px;
+}
+
+.disp-none{
+    display: none;
+}
+
+.disp-on{
+    display: block;
+}
+
+.border-error{
+    border: 2px solid #a94442;
+}
+
+@media (min-width: 768px) {
+    .form-group{
+        justify-content: space-around;
+    }
+
+
+    
+}
